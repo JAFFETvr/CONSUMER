@@ -69,9 +69,9 @@ func main() {
 			// Enviar el mensaje a la API destino
 			err := enviarMensajeAPI(msg.Body)
 			if err != nil {
-				fmt.Printf("❌ Error enviando mensaje a API: %v\n", err)
+				fmt.Printf(" Error enviando mensaje a API: %v\n", err)
 			} else {
-				fmt.Println("✅ Mensaje enviado correctamente a la API")
+				fmt.Println(" Mensaje enviado correctamente a la API")
 			}
 		}
 	}()
