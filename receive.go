@@ -10,9 +10,9 @@ import (
 	amqp "github.com/rabbitmq/amqp091-go")
 
 var (
-	rabbitMQURL  = "amqp://jaffet:CHARLY1982@3.230.254.76/" // Reemplázalo con tu configuración
+	rabbitMQURL  = "/" // Reemplázalo con tu configuración
 	queueName    = "PRODUCT"
-	apiDestino   = "http://localhost:8081/mensaje" // API a donde enviar los datos
+	apiDestino   = "http://localhost:8081/mensaje"
 )
 
 func main() {
